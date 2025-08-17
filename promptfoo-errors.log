@@ -1,0 +1,370 @@
+2025-08-17T06:11:03.843Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+2025-08-17T06:11:03.848Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063150-11738185a2d2.py", line 4, in main
+    val = float(output["average_degree"])
+KeyError: 'average_degree'
+2025-08-17T06:11:03.855Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063144-ae524fd2f75b3.py", line 4, in main
+    if output["highest_degree_node"].lower() == "bob" :
+KeyError: 'highest_degree_node'
+2025-08-17T06:11:03.857Z [ERROR]: result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063128-e0b023692c3d.py", line 4, in main
+    if output["edge_count"] == 7 :
+KeyError: 'edge_count'
+2025-08-17T06:11:03.864Z [ERROR]: Error running Python script: KeyError: 'edge_count'
+Stack Trace: Error: KeyError: 'edge_count'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063128-e0b023692c3d.py", line 4, in main
+      if output["edge_count"] == 7 :
+2025-08-17T06:11:03.866Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063129-7c86e54f331e5.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063129-7c86e54f331e5.json'
+2025-08-17T06:11:03.874Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'edge_count'
+Stack Trace: Error: KeyError: 'edge_count'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063128-e0b023692c3d.py", line 4, in main
+      if output["edge_count"] == 7 :
+2025-08-17T06:11:03.893Z [ERROR]: Error running Python script: KeyError: 'average_degree'
+Stack Trace: Error: KeyError: 'average_degree'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063150-11738185a2d2.py", line 4, in main
+      val = float(output["average_degree"])
+2025-08-17T06:11:03.895Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063151-06fee45448c8e.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063151-06fee45448c8e.json'
+2025-08-17T06:11:03.898Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'average_degree'
+Stack Trace: Error: KeyError: 'average_degree'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063150-11738185a2d2.py", line 4, in main
+      val = float(output["average_degree"])
+2025-08-17T06:11:03.921Z [ERROR]: Error running Python script: KeyError: 'highest_degree_node'
+Stack Trace: Error: KeyError: 'highest_degree_node'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063144-ae524fd2f75b3.py", line 4, in main
+      if output["highest_degree_node"].lower() == "bob" :
+2025-08-17T06:11:03.924Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063145-cccc1efbe12c5.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063145-cccc1efbe12c5.json'
+2025-08-17T06:11:03.926Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'highest_degree_node'
+Stack Trace: Error: KeyError: 'highest_degree_node'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063144-ae524fd2f75b3.py", line 4, in main
+      if output["highest_degree_node"].lower() == "bob" :
+2025-08-17T06:11:04.124Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+2025-08-17T06:11:04.125Z [ERROR]: result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+2025-08-17T06:11:04.126Z [ERROR]: return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063876-afa23f29eba22.py", line 4, in main
+2025-08-17T06:11:04.128Z [ERROR]: val = float(output["density"])
+KeyError: 'density'
+2025-08-17T06:11:04.139Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+2025-08-17T06:11:04.140Z [ERROR]: result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+2025-08-17T06:11:04.142Z [ERROR]: return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063900-b6ed19ca6ff96.py", line 4, in main
+2025-08-17T06:11:04.145Z [ERROR]: Error running Python script: KeyError: 'density'
+Stack Trace: Error: KeyError: 'density'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063876-afa23f29eba22.py", line 4, in main
+      val = float(output["density"])
+2025-08-17T06:11:04.147Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063877-47880ff8f15ca.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063877-47880ff8f15ca.json'
+2025-08-17T06:11:04.149Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'density'
+Stack Trace: Error: KeyError: 'density'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063876-afa23f29eba22.py", line 4, in main
+      val = float(output["density"])
+2025-08-17T06:11:04.151Z [ERROR]: if output["shortest_path_alice_eve"] == 2:
+KeyError: 'shortest_path_alice_eve'
+2025-08-17T06:11:04.161Z [ERROR]: Error running Python script: KeyError: 'shortest_path_alice_eve'
+Stack Trace: Error: KeyError: 'shortest_path_alice_eve'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063900-b6ed19ca6ff96.py", line 4, in main
+      if output["shortest_path_alice_eve"] == 2:
+2025-08-17T06:11:04.163Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063901-05a2409676947.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411063901-05a2409676947.json'
+2025-08-17T06:11:04.165Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'shortest_path_alice_eve'
+Stack Trace: Error: KeyError: 'shortest_path_alice_eve'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411063900-b6ed19ca6ff96.py", line 4, in main
+      if output["shortest_path_alice_eve"] == 2:
+2025-08-17T06:11:38.950Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+2025-08-17T06:11:38.956Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098706-570c42dceca1a.py", line 4, in main
+2025-08-17T06:11:38.963Z [ERROR]: return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098691-4d20ce7da1f09.py", line 4, in main
+    if output["edge_count"] == 7 :
+KeyError: 'edge_count'
+2025-08-17T06:11:38.969Z [ERROR]: if output["highest_degree_node"].lower() == "bob" :
+KeyError: 'highest_degree_node'
+2025-08-17T06:11:38.985Z [ERROR]: Error running Python script: KeyError: 'edge_count'
+Stack Trace: Error: KeyError: 'edge_count'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098691-4d20ce7da1f09.py", line 4, in main
+      if output["edge_count"] == 7 :
+2025-08-17T06:11:38.987Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411098692-575c2ee8b5a28.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411098692-575c2ee8b5a28.json'
+2025-08-17T06:11:38.990Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'edge_count'
+Stack Trace: Error: KeyError: 'edge_count'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098691-4d20ce7da1f09.py", line 4, in main
+      if output["edge_count"] == 7 :
+2025-08-17T06:11:39.009Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098713-6b357bf7bd136.py", line 4, in main
+    val = float(output["average_degree"])
+KeyError: 'average_degree'
+2025-08-17T06:11:39.013Z [ERROR]: Error running Python script: KeyError: 'highest_degree_node'
+Stack Trace: Error: KeyError: 'highest_degree_node'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098706-570c42dceca1a.py", line 4, in main
+      if output["highest_degree_node"].lower() == "bob" :
+2025-08-17T06:11:39.015Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411098706-44935d8fcf72e.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411098706-44935d8fcf72e.json'
+2025-08-17T06:11:39.017Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'highest_degree_node'
+Stack Trace: Error: KeyError: 'highest_degree_node'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098706-570c42dceca1a.py", line 4, in main
+      if output["highest_degree_node"].lower() == "bob" :
+2025-08-17T06:11:39.038Z [ERROR]: Error running Python script: KeyError: 'average_degree'
+Stack Trace: Error: KeyError: 'average_degree'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098713-6b357bf7bd136.py", line 4, in main
+      val = float(output["average_degree"])
+2025-08-17T06:11:39.039Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411098714-e47db3279462d.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411098714-e47db3279462d.json'
+2025-08-17T06:11:39.042Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'average_degree'
+Stack Trace: Error: KeyError: 'average_degree'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098713-6b357bf7bd136.py", line 4, in main
+      val = float(output["average_degree"])
+2025-08-17T06:11:39.205Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098991-ff1eb80fc36a1.py", line 4, in main
+    val = float(output["density"])
+KeyError: 'density'
+2025-08-17T06:11:39.208Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+  File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411099019-a617da51d9d34.py", line 4, in main
+    if output["shortest_path_alice_eve"] == 2:
+KeyError: 'shortest_path_alice_eve'
+2025-08-17T06:11:39.211Z [ERROR]: Error running Python script: KeyError: 'density'
+Stack Trace: Error: KeyError: 'density'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098991-ff1eb80fc36a1.py", line 4, in main
+      val = float(output["density"])
+2025-08-17T06:11:39.213Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411098992-b51008e3cb5db.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411098992-b51008e3cb5db.json'
+2025-08-17T06:11:39.215Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'density'
+Stack Trace: Error: KeyError: 'density'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411098991-ff1eb80fc36a1.py", line 4, in main
+      val = float(output["density"])
+2025-08-17T06:11:39.228Z [ERROR]: Error running Python script: KeyError: 'shortest_path_alice_eve'
+Stack Trace: Error: KeyError: 'shortest_path_alice_eve'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411099019-a617da51d9d34.py", line 4, in main
+      if output["shortest_path_alice_eve"] == 2:
+2025-08-17T06:11:39.229Z [ERROR]: Error removing C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411099019-f4cbf1b5a5bbf.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\DELL\AppData\Local\Temp\promptfoo-python-output-json-1755411099019-f4cbf1b5a5bbf.json'
+2025-08-17T06:11:39.232Z [ERROR]: Error executing Python code: Error: Error running Python script: KeyError: 'shortest_path_alice_eve'
+Stack Trace: Error: KeyError: 'shortest_path_alice_eve'
+    at PythonShell.parseError (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    --Python Traceback: --
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\DELL\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "C:\Users\DELL\AppData\Local\Temp\temp-python-code-1755411099019-a617da51d9d34.py", line 4, in main
+      if output["shortest_path_alice_eve"] == 2:
